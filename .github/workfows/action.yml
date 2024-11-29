@@ -1,8 +1,0 @@
-name: Run on custom runner
-on: push
-jobs:
-  init:
-    runs-on: self-hosted
-    steps:
-      - run: echo "Hello hunny-bunny"
-      - run: echo $HOSTNAME
